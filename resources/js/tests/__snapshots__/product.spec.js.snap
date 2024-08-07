@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails.vue renders correctly with given product 1`] = `
+<div
+  class="product-details-container"
+>
+  <h2
+    class="mobile-product-company-title"
+  >
+    SNEAKER COMPANY
+  </h2>
+  <h1
+    class="product-title-text"
+  >
+    Fall Limited Edition Sneakers
+  </h1>
+  <p
+    class="product-description-text"
+  >
+    High-quality sneakers for fall.
+  </p>
+  <div
+    class="price-container"
+  >
+    <!-- Conditionally show the discounted price -->
+    <div
+      class="product-discounted-container"
+    >
+      <div
+        class="current-price-container"
+      >
+        <h2
+          class="product-price-text"
+        >
+          $125.00
+        </h2>
+        <p
+          class="discount-tag"
+        >
+          50%
+        </p>
+      </div>
+      <p
+        class="product-discount-text"
+      >
+        $250.00
+      </p>
+    </div>
+  </div>
+  <div
+    class="product-button-container button-component"
+  >
+    <!-- Quantity Selector -->
+    <div
+      class="quantity-selector"
+    >
+      <button
+        id="product-button-decrement"
+      >
+        <div>
+          <img
+            alt="Minus Icon"
+            src="svg-mock"
+          />
+        </div>
+      </button>
+      <input
+        readonly=""
+        type="text"
+      />
+      <button
+        id="product-button-increment"
+      >
+        <div>
+          <img
+            alt="Plus Icon"
+            src="svg-mock"
+          />
+        </div>
+      </button>
+    </div>
+    <!-- Add to Cart Button -->
+    <button
+      class="product-add-to-cart-button"
+    >
+      <div>
+        <img
+          alt="Cart Icon"
+          src="svg-mock"
+        />
+        Add to cart
+      </div>
+    </button>
+  </div>
+</div>
+`;
